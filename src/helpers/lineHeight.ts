@@ -1,5 +1,6 @@
 import { lru_cached } from '../lru';
 let invisibleElement = document.createElement('div');
+invisibleElement.style.position = 'fixed';
 invisibleElement.style.visibility = 'hidden';
 invisibleElement.style.height = 'auto';
 invisibleElement.style.width = 'auto';
